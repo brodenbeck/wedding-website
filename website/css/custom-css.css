@@ -1,0 +1,184 @@
+.NaiveInline-Light {
+    font-family: NaiveInline-Light;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.novecento {
+    font-family: 'novecento_sans_widedemibold';
+    src: url('Novecentosanswide-DemiBold-webfont.eot');
+    src: url('Novecentosanswide-DemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Novecentosanswide-DemiBold-webfont.woff2') format('woff2'),
+         url('Novecentosanswide-DemiBold-webfont.woff') format('woff'),
+         url('Novecentosanswide-DemiBold-webfont.ttf') format('truetype'),
+         url('Novecentosanswide-DemiBold-webfont.svg#novecento_sans_widedemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.index-background {
+	background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url("../images/e005.jpg");
+    height: 100%;
+}
+
+.thewedding-background {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url("../images/e062.jpg");
+    height: 100%;
+}
+
+.thecouple-background {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url("../images/e028.jpg");
+    height: 100%;
+}
+
+.thecity-background {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url("../images/e111.jpg");
+    height: 100%;
+}
+
+.ourregistry-background {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url("../images/e040.jpg");
+    height: 100%;
+}
+
+.faq-background {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url("../images/e009.jpg");
+    height: 100%;
+}
+
+.rsvp-background {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url("../images/e071.jpg");
+    height: 100%;
+}
+
+.index-container {
+	position: absolute;
+	bottom: 50px;
+	color: #FFFFF0;
+}
+
+.container-box {
+    background-color: rgba(255,255,240,0.5);
+    top: 100px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.index-wrapper {
+	width: 100%;
+}
+
+.navbar {
+	background-color: transparent;
+    border: 0px;
+    position: relative;
+}
+
+.navbar .nav > li > a {
+    text-decoration: none;
+    text-shadow: 0 0 2px #000000;
+    color:  #FFFFF0;
+}
+
+.small-break {
+	margin: 0px;
+	padding: 0px;
+	line-height: 45px;
+}
+
+.email-link {
+    color: #717175;
+}
+
+.title-link {
+    color: #000000;
+}
+
+p > a:hover {
+    color: inherit;
+}
+
+h3 > a:hover {
+    color: inherit;
+}
+
+.vertical-align {
+    vertical-align: middle;
+}
+
+.navbar-fixed-bottom {
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    background-color: transparent;
+    color: #FFFFF0;
+    text-decoration: none;
+    text-shadow: 0 0 2px #000000;
+}
