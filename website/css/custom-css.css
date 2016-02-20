@@ -185,9 +185,20 @@ h3 > a:hover {
 
 .nav-width{
     width:80px;
-    padding:
+    padding-left:0px !important;
+    padding-right: 0px !important;
+    line-height: 94px !important;
 }
 
 .dropdown:hover .dropdown-menu {
 display: block;
+}
+
+.logo{
+    margin: 0px auto;
+    position: relative;
+    width: 258px;
+    height: 124px;
+    z-index: 1;
+    padding:0px;
 }
