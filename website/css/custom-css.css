@@ -185,11 +185,15 @@ h3 > a:hover {
 
 @media(min-width:768px){
     .nav-width{
-        min-width: 80px !important;
-        width: 100% !important;
+        min-width: 80px;
+        max-width: 152px;
         padding-left:0px !important;
         padding-right: 0px !important;
         line-height: 94px !important;
+    }
+	
+	.txt-align {
+        text-align: right;
     }
 }
 
@@ -201,6 +205,10 @@ h3 > a:hover {
         padding-top: 5px !important;
         padding-bottom: 5px !important;
         margin: 0px 0px 0px 0px !important;
+    }
+	
+	.txt-align {
+        text-align: center;
     }
 }
 
