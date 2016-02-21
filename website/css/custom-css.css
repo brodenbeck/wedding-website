@@ -191,8 +191,8 @@ h3 > a:hover {
         padding-right: 0px !important;
         line-height: 94px !important;
     }
-	
-	.txt-align {
+    
+    .txt-align {
         text-align: right;
     }
 }
@@ -206,12 +206,11 @@ h3 > a:hover {
         padding-bottom: 5px !important;
         margin: 0px 0px 0px 0px !important;
     }
-	
-	.txt-align {
+    
+    .txt-align {
         text-align: center;
     }
 }
-
 .dropdown:hover .dropdown-menu {
 display: block;
 }
@@ -224,3 +223,4 @@ display: block;
     z-index: 1;
     padding:0px;
 }
+
