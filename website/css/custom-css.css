@@ -182,3 +182,15 @@ h3 > a:hover {
     text-decoration: none;
     text-shadow: 0 0 2px #000000;
 }
+
+@media (min-width: 768px) {
+    .txt-align {
+        text-align: right;
+    }
+}
+
+@media (max-width: 767px) {
+    .txt-align {
+        text-align: center;
+    }
+}
