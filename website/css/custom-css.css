@@ -142,7 +142,6 @@
 
 .container-box {
     background-color: rgba(255,255,240,0.5);
-    top: 100px;
     float: none;
     margin-left: auto;
     margin-right: auto;
@@ -275,10 +274,10 @@ h3 > a:hover {
 }
 
 .dropdown:hover .dropdown-menu {
-display: block;
+    display: block;
 }
 
-.logo{
+.logo {
     margin: 0px auto;
     position: relative;
     width: 258px;
