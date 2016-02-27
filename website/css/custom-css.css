@@ -153,7 +153,7 @@ body {
 }
 
 .email-link {
-    color: #717175;
+    color: #341023;
 }
 
 .title-link {
@@ -196,6 +196,10 @@ h3 > a:hover {
     
     .txt-align {
         text-align:center!important;
+    }
+
+    .img-center {
+        margin: auto;
     }
 }
 
