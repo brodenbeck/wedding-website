@@ -160,7 +160,6 @@ body {
 }
 
 .navbar {
-	background-color: transparent;
     border: 0px;
     position: relative;
 }
@@ -275,6 +274,10 @@ h3 > a:hover {
 @media(min-width:768px){    
     .txt-align {
         text-align:right!important;
+    }
+    
+    .navbar {
+    	background-color: transparent;
     }
 }
 
