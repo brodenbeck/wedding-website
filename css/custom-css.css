@@ -273,6 +273,18 @@ h3 > a:hover {
     }
 }
 
+@media(max-width: 991px) {
+    .hidden-smxs {
+        visibility: hidden;
+    }
+}
+
+@media(min-width: 992px) {
+    .hidden-mdlg {
+        visibility: hidden;
+    }
+}
+
 .dropdown:hover .dropdown-menu {
     display: block;
 }
