@@ -34,6 +34,7 @@
     background-color: #000000;
     background-repeat: no-repeat;
     background-position: center center;
+    position: fixed !important;
     background-attachment: fixed !important;
     -webkit-background-size: cover !important;
     -moz-background-size: cover !important;
