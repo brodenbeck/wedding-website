@@ -171,6 +171,16 @@ body {
     color:  #FFFFF0;
 }
 
+.toplink {
+    color: #FFFFF0;
+    text-shadow: 0 0 2px #000000;
+    text-decoration: none;
+}
+
+.toplink > a {
+    color: #FFFFF0;
+}
+
 .small-break {
 	margin: 0px;
 	padding: 0px;
