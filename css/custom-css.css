@@ -216,6 +216,28 @@ h3 > a:hover {
 }
 
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.logo {
+    margin: 0px auto;
+    position: relative;
+    width: 258px;
+    height: 124px;
+    z-index: 1;
+    padding:0px;
+}
+
+#scrollUp {
+    background-image: url("../images/top.png");
+    bottom: 20px;
+    right: 20px;
+    width: 38px;    /* Width of image */
+    height: 38px;   /* Height of image */
+}
+
+
 @media (max-width:767px) { 
     .navbar-width{
         width:100%!important;
@@ -301,17 +323,4 @@ h3 > a:hover {
     .hidden-mdlg {
         visibility: hidden;
     }
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.logo {
-    margin: 0px auto;
-    position: relative;
-    width: 258px;
-    height: 124px;
-    z-index: 1;
-    padding:0px;
 }
