@@ -324,3 +324,7 @@ h3 > a:hover {
         visibility: hidden;
     }
 }
+
+.rsvp-para {
+    margin-bottom: -70px;
+}
