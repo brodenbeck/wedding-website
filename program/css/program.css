@@ -1,0 +1,158 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	font-family: NaiveInline-Light;
+	font-size: 6em;
+	padding: 60px 0;
+	color: #FFDEE7;
+}
+
+.logo {
+	max-width: 50%;
+	float: right;
+	margin: 20px 20px 70px 0;
+}
+
+.empty-div {
+	height: 40px;
+}
+
+.event {
+	font-size: 1.15em;
+}
+
+.emphasis {
+	margin-top: -25px;
+	font-style: italic;
+}
+
+h2 {
+	text-align: center;
+	font-size: 4em;
+	font-family: NaiveInline-Light;
+	color: #FFDEE7;
+	margin-bottom: 70px;
+}
+
+h3 {
+	font-size: 3em;
+	text-transform: lowercase;
+}
+
+h3, p {
+	font-family: 'novecento_sans_widedemibold';
+	src: url('Novecentosanswide-DemiBold-webfont.eot');
+    src: url('Novecentosanswide-DemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Novecentosanswide-DemiBold-webfont.woff2') format('woff2'),
+         url('Novecentosanswide-DemiBold-webfont.woff') format('woff'),
+         url('Novecentosanswide-DemiBold-webfont.ttf') format('truetype'),
+         url('Novecentosanswide-DemiBold-webfont.svg#novecento_sans_widedemibold') format('svg');
+}
+
+p {
+	text-transform: lowercase;
+	text-align: center;
+}
+
+.col-xs-4 > p {
+	font-size: 3em;
+	text-align: right;
+}
+
+.col-xs-8 > p {
+	font-size: 3em;
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+i {
+	margin-right: 20px;
+	color: #7A9790;
+}
+
+.pink-line {
+	height: 2px;
+	background-color: #FFDEE7;
+	display: inline-block;
+	position: relative;
+	width: 60%;
+	top: -5px;
+	left: 20%;
+	margin-bottom: 20px;
+}
+
+.arrow-right {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-left: 60px solid #7A9790;
+}
+
+#content {
+	margin-bottom: 150px;
+	clear: both;
+	position: relative;
+	width: 90%;
+	left: 5%;
+}
+
+#navigation {
+	position: fixed;
+	height: 115px;
+	bottom: -1px;
+	width: 100%;
+	background-color: white;
+}
+
+.arrow-left {
+	position: fixed;
+	bottom: 30px;
+	left: 30px;
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-right: 60px solid #7A9790;
+}
+
+#pagination {
+	width: 10%;
+	position: fixed;
+	bottom: 30px;
+	left: 46%;
+	text-align: center;
+	font-size: 2.5em;
+	color: #7A9790;
+}
+
+.bio-pic-lt {
+	max-width: 40%;
+	overflow: hidden;
+	float: left;
+	border-radius: 5px;
+	margin-right: 30px;
+}
+
+.bio-lt {
+	text-align: left;
+}
+
+.bio-pic-rt {
+	max-width: 40%;
+	overflow: hidden;
+	float: right;
+	border-radius: 5px;
+	margin-left: 30px;
+}
+
+.bio-rt {
+	text-align: right;
+}

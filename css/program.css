@@ -1,0 +1,84 @@
+body {
+	background-image: url("../images/bg.png");
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	font-family: NaiveInline-Light;
+	font-size: 6em;
+	padding: 60px 0;
+}
+
+img {
+	max-width: 50%;
+	position: relative;
+	top: 0;
+	left: 25%;
+}
+
+.large-img {
+	max-width: 70%;
+	position: relative;
+	left: 15%;
+	margin: 40px auto;
+}
+
+h2 {
+	text-align: center;
+	font-size: 3em;
+}
+
+h2, p {
+	font-family: 'novecento_sans_widedemibold';
+	src: url('Novecentosanswide-DemiBold-webfont.eot');
+    src: url('Novecentosanswide-DemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Novecentosanswide-DemiBold-webfont.woff2') format('woff2'),
+         url('Novecentosanswide-DemiBold-webfont.woff') format('woff'),
+         url('Novecentosanswide-DemiBold-webfont.ttf') format('truetype'),
+         url('Novecentosanswide-DemiBold-webfont.svg#novecento_sans_widedemibold') format('svg');
+}
+
+.arrow-right {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-left: 60px solid #7A9790;
+}
+
+.alignment {
+	margin-bottom: 150px;
+}
+
+#navigation {
+	position: fixed;
+	height: 115px;
+	bottom: -1px;
+	width: 100%;
+	background-color: white;
+}
+
+.arrow-left {
+	position: fixed;
+	bottom: 30px;
+	left: 30px;
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-right: 60px solid #7A9790;
+}
+
+#pagination {
+	width: 10%;
+	position: fixed;
+	bottom: 30px;
+	left: 46%;
+	text-align: center;
+	font-size: 2.5em;
+	color: #7A9790;
+}
