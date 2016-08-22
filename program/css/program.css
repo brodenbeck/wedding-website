@@ -156,3 +156,7 @@ i {
 .bio-rt {
 	text-align: right;
 }
+
+.fadeIn {
+	animation-duration: 3s;
+}
